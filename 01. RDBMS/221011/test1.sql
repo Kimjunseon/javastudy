@@ -1,2 +1,0 @@
--- insert table
--- delete delete
