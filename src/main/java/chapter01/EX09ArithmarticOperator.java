@@ -13,5 +13,4 @@ public class EX09ArithmarticOperator {
 		System.out.println(7 % -3); // 결과 1
 
 	}
-
 }
