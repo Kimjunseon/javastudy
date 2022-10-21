@@ -1,0 +1,43 @@
+case문
+디폴트는 밑에 두기
+각 case문에는 break 두기
+
+
+switch(a){
+	case 1: {
+		break;
+		}
+	case 2: {
+		break;
+		}
+	case 3: {
+		break;
+		}
+	default: {
+		break;
+		}
+}
+
+
+
+반복문
+
+for(...) {
+}
+
+while(조건식) {
+} 
+
+
+----- do while -----
+do while 적어도 한번 수행되어야 반복될지 말지 결정
+
+do {
+
+} while(...);
+
+EX28 수정
+
+
+-- 여러가지 받을떄에는 폼에서 패키징을 폼으로 수정
+<branch>제거
