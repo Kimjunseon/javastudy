@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX05Tycast {
+public class Ex05Tycast {
 	public static void main(String[] args) {
 		byte b = 25;
 		short s = b;

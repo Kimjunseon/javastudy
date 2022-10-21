@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX08ArithmarticOperator {
+public class Ex08ArithmarticOperator {
 
 	public static void main(String[] args) {
 		final int TIME = 20000; // 20000초

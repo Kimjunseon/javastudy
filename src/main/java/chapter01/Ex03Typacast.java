@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX03Typacast {
+public class Ex03Typacast {
 
 	public static void main(String[] args) {
 		int i1 = 10;

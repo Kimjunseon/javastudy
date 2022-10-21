@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX09ArithmarticOperator {
+public class Ex09ArithmarticOperator {
 
 	public static void main(String[] args) {
 		System.out.println(10.0/3.0); // 결과 double

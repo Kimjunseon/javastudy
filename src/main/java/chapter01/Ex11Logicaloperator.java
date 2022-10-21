@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX11Logicaloperator {
+public class Ex11Logicaloperator {
 
 	public static void main(String[] args) {
 		// !  (not)

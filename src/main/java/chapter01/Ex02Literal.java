@@ -3,7 +3,7 @@ package chapter01;
 /*
  * 리터널(literal)이란 프로그램에 직접적으로 표현되는 상수 
  */
-public class EX02Literal {
+public class Ex02Literal {
 
 	public static void main(String[] args) {
 		float f = 3.14f; // float(4바이트)는 double(8바이트)로 인식 8바이트가 4바이트로 인식을 함 f를 붙여 4바이트를 부여

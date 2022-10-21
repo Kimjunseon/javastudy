@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX07ArithmaticOperator {
+public class Ex07ArithmaticOperator {
 
 	public static void main(String[] args) {
 		int a = 3;

@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX13IfStatemente {
+public class Ex13IfStatemente {
 
 	public static void main(String[] args) {
 		char grade = ' ';

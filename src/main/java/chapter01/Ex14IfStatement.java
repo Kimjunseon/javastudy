@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX14IfStatement {
+public class Ex14IfStatement {
 
 	public static void main(String[] args) {
 		int n1 = 10;

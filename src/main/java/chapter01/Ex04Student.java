@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX04Student {
+public class Ex04Student {
 	String number; 		// 학번
 	String name; 	    // 이름
 	boolean isEnrolled;	// 등록 여부

@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX06Typecast {
+public class Ex06Typecast {
 	public static void main(String[] args) {
 		byte b;
 		int i = 414;

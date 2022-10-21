@@ -1,6 +1,6 @@
 package chapter01;
 
-public class EX12BitwiseOperator {
+public class Ex12BitwiseOperator {
 
 	public static void main(String[] args) {
 		int a = 0x0f;
