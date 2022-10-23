@@ -10,13 +10,14 @@ public class Prob4 {
 		System.out.print("문자열을 입력하세요 : ");
 		String text = scanner.nextLine();
 		int textLength = text.length();
+		String[] array = text.split("");
+		
 		
 		for(int i = 1; i < textLength+1; i++) {
-			System.out.print(text);
-			for(int j = 2; j <textLength; j++) {
-				System.out.print(" ");
+			for(int j = 0; j < i; j++) {
+				System.out.print(array[j]);
 				
-			}System.out.print("\n");
+			}System.out.println("");
 		}
 		
 		
