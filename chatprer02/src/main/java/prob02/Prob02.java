@@ -9,9 +9,10 @@ public class Prob02 {
 
 		int[] intArray = new int[ 5 ];
 		double sum = 0;
-
-		/* 키보드에서 배열 크기만큼 입력 받아 배열에 저장하는 코드 */
 		
+		/* 키보드에서 배열 크기만큼 입력 받아 배열에 저장하는 코드 */
+		System.out.print("" +  "개의 숫자를 입력하세요");
+		int value = scanner.nextInt();		
 		/* 배열에 저장된 정수 값 더하기 */
 		
 		/* 출력 */
