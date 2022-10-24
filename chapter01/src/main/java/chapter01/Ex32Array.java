@@ -32,6 +32,14 @@ public class Ex32Array {
 		int[] a6 = new int[]{0, 1, 2, 3, 4};
 		System.out.println(a6.length);
 		
+		// 사용: 1. 랜덤 접근
+		System.out.println(a6[3]);
+		
+		// 사용: 2. 순회
+		for(int i = 0; i < a6.length; i++) {
+			System.out.print(a6[i] + " ");
+		}
+		
 	}
 
 }
