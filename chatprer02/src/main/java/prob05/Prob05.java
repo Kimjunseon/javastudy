@@ -13,7 +13,7 @@ public class Prob05 {
 			// 정답 램덤하게 만들기
 			Random random = new Random();
 			int correctNumber = random.nextInt( 100 ) + 1;
-			System.out.println("지정 숫자: " + correctNumber);
+			// System.out.println("지정 숫자: " + correctNumber);
 			System.out.println("수를 결정하였습니다. 맞추어 보세요");
 			
 			
