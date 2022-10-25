@@ -1,6 +1,6 @@
 package chapter03;
 
-import mypakage.Goods2;
+import mypackage.Goods2;
 
 public class Good2App {
 

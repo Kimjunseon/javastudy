@@ -1,4 +1,4 @@
-package mypakage;
+package mypackage;
 
 public class Goods2 {
 	public String name; 	// 모두 접근이 가능하다.
