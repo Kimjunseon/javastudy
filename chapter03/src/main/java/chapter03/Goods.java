@@ -35,8 +35,17 @@ public class Goods {
 		public void setCountSold(int countSold) {
 			this.countSold = countSold;
 		}
-		public String toString() {
-			return "name: " + name + " price: " + price + " countStock: " + countStock + " countSold: " + countSold; 
+//		public String toString() {
+//			return "name: " + name + " price: " + price + " countStock: " + countStock + " countSold: " + countSold; 
+//		}
+
+		public void showInfo() {
+			System.out.println("name: " + name + " price: " + price + " countStock: " + countStock + " countSold: " + countSold);
+			
+		}
+
+		public int calDiscountPrice(double discountRate) {
+			return (int)(discountRate * price);
 		}
 }
 

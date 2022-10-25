@@ -8,7 +8,11 @@ public class GoodsApp {
 		camera.setPrice(400000);
 		camera.setCountStock(30);
 		camera.setCountSold(50);
-		System.out.println(camera);
+		
+		camera.showInfo();
+		
+		int discountPrice = camera.calDiscountPrice(0.5);
+		System.out.println("Discount Price: " + discountPrice);
 		
 		Goods g1 = new Goods();
 		Goods g2 = new Goods();
