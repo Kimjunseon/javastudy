@@ -18,6 +18,11 @@ public class GoodsApp {
 		Goods g2 = new Goods();
 		Goods g3 = new Goods();
 		
-		System.out.println(Goods.countOfGoods);
+		System.out.println("instance count:"  + Goods.countOfGoods);
+		
+		// 생성자 초기화
+		Goods g4 = new Goods("Tv", 10000, 10 ,0);
+		g4.showInfo();
+		System.out.println("instance count:"  + Goods.countOfGoods);
 	}
 }

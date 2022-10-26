@@ -7,8 +7,18 @@ public class Goods {
 		private int countStock;
 		private int countSold;
 		
-		public Goods() {
+		public Goods() { // A 타입 Goods
 			countOfGoods++; // Goods.는 생략가능 Goods.countOfGoods++;
+			
+		}
+		
+		public Goods(String name, int price, int countStock, int countSold) {
+			this(); // A 타입 Goods의 countOfGoods를 가져옴..(중복방지를 위해 이 과정이 refactoring)
+			this.name = name;
+			this.price = price;
+			this.countStock = countStock;
+			this.countSold = countSold;
+
 		}
 		
 		public void setName(String name) {

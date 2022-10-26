@@ -7,6 +7,28 @@ public class Song {
 	private String compser;
 	private int year;
 	private int track;
+	
+	public Song() {
+	}
+	public Song(String title, String artist) {
+		// 코드의 중복..
+//		this.title = title;
+//		this.artist = artist;
+//		this.album = "";
+//		this.compser = "";
+		// A타의 Song을 불러오는 this() 함수
+		this(title, artist, "", "", 0, 0);
+	}
+	
+	// A타입 Song
+	public Song(String title, String artist, String album, String compser, int year, int track) {
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.compser = compser;
+		this.year = year;
+		this.track = track;
+	}
 
 	public void setTitle(String title) {
 		this.title = title;
