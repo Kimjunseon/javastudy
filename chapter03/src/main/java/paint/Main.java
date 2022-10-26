@@ -12,22 +12,23 @@ public class Main {
 		// pt.disappear();
 		pt.show(false);
 		
-		ColorPoint pt2 = new ColorPoint();
+		Point pt2 = new ColorPoint();
 		pt2.setX(100);
 		pt2.setY(200);
-		pt2.setColor("red");
-		drawColorPoint(pt2);
+		((ColorPoint)pt2).setColor("red"); // pt에 있는 값을 접근제어를 하지 못해 캐스팅을 함
 		
+		drawPoint(pt2);
+		pt2.show(false);		
 		
 	}
 
 	public static void drawPoint(Point pt) {
 		pt.show();
 	}
-	public static void drawColorPoint(ColorPoint pt) {
-		pt.show();
-	}
-	
+//	public static void drawColorPoint(ColorPoint pt) {
+//		pt.show();
+//	}
+//	
 //	public static void drawPoint(ColorPoint pt) {
 //		pt.show();
 //	}
