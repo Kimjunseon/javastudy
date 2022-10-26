@@ -3,14 +3,14 @@ package paint;
 public class Main {
 
 	public static void main(String[] args) {
-		Point pt = new Point(10, 50);
+		Point pt1 = new Point(10, 50);
 //		pt.setX(10);
 //		pt.setY(50);
 		
-		drawPoint(pt);
+		drawPoint(pt1);
 		
 		// pt.disappear();
-		pt.show(false);
+		pt1.show(false);
 		
 		Point pt2 = new ColorPoint();
 		pt2.setX(100);
