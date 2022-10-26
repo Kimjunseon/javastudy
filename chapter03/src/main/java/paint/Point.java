@@ -3,6 +3,9 @@ public class Point {
 	private int x;
 	private int y;
 	
+	public Point() {
+	}
+	
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
@@ -29,6 +32,10 @@ public class Point {
 	
 	public void show() {
 			System.out.println("점(X=" + x + ", y=" + y + ")를 그렸습니다.");
+	}
+	
+	public static void drawColorPoint(ColorPoint pt) {
+		pt.show();
 	}
 //	public void disappear() {
 //		System.out.println("점(X=" + x + ", y=" + y + ")를 지웠습니다.");
