@@ -4,7 +4,8 @@ public class Point {
 	private int y;
 	
 	public Point() {
-	}
+		System.out.println("s");
+	} // 기본 생성자를 생성해서 s가 출력됨
 	
 	public Point(int x, int y) {
 		this.x = x;
