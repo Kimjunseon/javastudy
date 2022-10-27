@@ -1,4 +1,5 @@
 package prob01;
+// 프린터엘엔을 오버로드하기
 
 public class PrinterTest {
 

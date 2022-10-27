@@ -1,5 +1,5 @@
 package prob05;
-
+// 오버라이드 문제
 public class Prob05 {
 
 	public static void main(String[] args) {
