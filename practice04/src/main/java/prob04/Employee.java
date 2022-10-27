@@ -1,5 +1,5 @@
 package prob04;
-
+// 오버라이딩 문제 포인트, 컬러포인트와 유사함
 public class Employee {
 	private String name;
 	private int salary;

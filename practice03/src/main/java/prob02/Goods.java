@@ -4,6 +4,12 @@ public class Goods {
 	private String drinkName;
 	private int drinkPrice;
 	private int drinkCount;
+	
+	public Goods(String name, int price, int count) {
+		this.drinkName = name;
+		this.drinkPrice = price;
+		this.drinkCount = count;
+	}
 
 	public void showInfo() {
 		System.out.println(drinkName + "(가격:" +
@@ -34,4 +40,7 @@ public class Goods {
 	public void setDrinkCount(int drinkCount) {
 		this.drinkCount = drinkCount;
 	}
+	
+	
+
 }

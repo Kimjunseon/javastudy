@@ -1,5 +1,5 @@
 package prob03;
-
+// 탱크 마린 드랍쉽의 공통점을 찾아서 만들기 상속?
 public class DropShip{
 	// 현재 위치
 	private int x;
