@@ -1,0 +1,36 @@
+package exception;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 10 - a;
+		
+		System.out.println("some code 1");
+		
+		try {
+			System.out.println("some code 2");
+		
+			int result = (1+2+3) / b;
+		
+			System.out.println("some code 3");
+			System.out.println("some code 4");
+		
+		} catch(ArithmeticException ex) {
+			/* 에외 처리 */
+			
+			// 1. 사과
+			System.out.println("미안합니다.");
+	
+			// 2. 로깅
+			System.out.println("error: " + ex);
+	
+			// 3. 정상 종료
+			// System.exit(0);
+			// return;
+		}
+		// 예외가 발생한 이 후에 실행되는 코드이기 떄문에 비추
+		// System.out.println("some code 4");
+	}
+
+}
