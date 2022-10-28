@@ -1,9 +1,13 @@
 package prob02;
 
 public class Goods {
-	private String drinkName;
-	private int drinkPrice;
-	private int drinkCount;
+//	private String drinkName;
+//	private int drinkPrice;
+//	private int drinkCount;
+	private String goods[0];
+	private String goods[0];
+	private String goods[0];
+	
 	
 	public Goods(String name, int price, int count) {
 		this.drinkName = name;
@@ -12,9 +16,9 @@ public class Goods {
 	}
 
 	public void showInfo() {
-		System.out.println(drinkName + "(가격:" +
-						   drinkPrice + "원)이 " +
-					       drinkCount + "개 입고 되었습니다.)");
+		System.out.println(this.drinkName + "(가격:" +
+						   this.drinkPrice + "원)이 " +
+					       this.drinkCount + "개 입고 되었습니다.)");
 	}
 
 	public String getDrinkName() {
