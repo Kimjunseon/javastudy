@@ -27,7 +27,10 @@ public class ExceptionTest {
 	
 			// 3. 정상 종료
 			// System.exit(0);
-			// return;
+			return;
+		} finally {
+			// 예외가 발생하거나 정상적으로 실행 되어도 반드시 실행되는 블록
+			System.out.println("자원 정리");
 		}
 		// 예외가 발생한 이 후에 실행되는 코드이기 떄문에 비추
 		// System.out.println("some code 4");
