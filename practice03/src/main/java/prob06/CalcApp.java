@@ -16,7 +16,7 @@ public class CalcApp {
 				break;
 			}
 			
-			String[] tokens = expression.split( " " );
+			String[] tokens = expression.split(" ");
 			
 			if( tokens.length != 3 ) {
 				System.out.println( ">> 알 수 없는 식입니다.");
